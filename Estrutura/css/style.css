@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Classes Gerais */
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-content{
+    justify-content: space-between;
+}
+
+/* header */
+
+header{
+    background-color: #000;
+    width: auto;
+    margin: auto;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    font-family: 'Courier New', Courier, monospace;
+}
