@@ -1,0 +1,28 @@
+.hide{
+    display: none;
+}
+
+a{
+    background-color: #eee;
+    padding: 30px;
+    display: inline-block;
+}
+
+.content-flex{
+    display: flex;
+    width: 1280px;
+    justify-content: flex-start;
+    /* height: 500px; */
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.content-flex{
+    padding: 30px;
+    width: 300px;
+}
+
+.content-flex p:first-child{
+   font-weight: bold;
+}

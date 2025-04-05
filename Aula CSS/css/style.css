@@ -46,7 +46,7 @@ a {
 /* header */
 
 header {
-    background-color: #000;
+    background-color: #545454;
     color: #fff;
     padding: 10px 0;
     display: flex;
@@ -87,12 +87,43 @@ main {
 }
 
 main section {
-    border: 1px dashed #ddd;
+    border: 1px solid #ddd;
     margin: 20px 0;
+    padding: 30px;
+    border-radius: 30px ;
+    background-color: #ddd;
 }
 
-main h2 {
+
+main section article {
+    margin: 20px 0;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+}
+
+main section h2 {
     text-align: center;
     margin: 15px 0;
     font-size: 16px;
+}
+
+main section p {
+    margin: 20px 0;
+}
+
+main section a {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    letter-spacing: 1px;
+    position: relative; /* Permite o uso de 'absolute' em elementos filhos */
 }
