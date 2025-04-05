@@ -1,14 +1,14 @@
-.hide{
+.hide {
     display: none;
 }
 
-a{
+a {
     background-color: #eee;
     padding: 30px;
     display: inline-block;
 }
 
-.content-flex{
+.content-flex {
     display: flex;
     width: 1280px;
     justify-content: flex-start;
@@ -18,11 +18,11 @@ a{
 
 }
 
-.content-flex{
+.content-flex {
     padding: 30px;
     width: 300px;
 }
 
-.content-flex p:first-child{
-   font-weight: bold;
+.content-flex p:first-child {
+    font-weight: bold;
 }
